@@ -1,0 +1,40 @@
+.menu {
+    width: 100%;
+    padding: 12px 16px;
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--nav-bg-color);
+    z-index: 1;
+}
+
+.menu_logo {
+    max-width: 160px;
+}
+
+.menu_logo-img {
+    width: 100%;
+}
+
+.menu_item {
+    margin-right: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--text-color);
+    letter-spacing: 2px;
+}
+
+.menu_sign-up-btn {
+    padding: 8px 26px;
+    border-radius: 500px;
+    background-color: var(--tertiary-color);
+    transition: background 1s, color 1s;
+}
+
+.menu_sign-up-btn:hover {
+    background-color: var(--btn-link-bg-color);
+    color: var(--btn-link-color);
+}
