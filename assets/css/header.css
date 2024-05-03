@@ -7,6 +7,15 @@
     animation: gradient 10s ease infinite alternate;
 }
 
+.header::after {
+    content: "";
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(0deg, var(--primary-color), transparent);
+}
+
 .header_content {
     margin: auto;
     display: flex;
