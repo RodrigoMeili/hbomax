@@ -27,7 +27,7 @@
 
 .header_chanels {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
 }
@@ -142,5 +142,11 @@
     }
     40%, 100% {
         transform: rotate(0);
+    }
+}
+
+@media screen and (max-width:480px) {
+    .header {
+        margin-top: 128px !important;
     }
 }

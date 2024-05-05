@@ -25,6 +25,7 @@
     text-decoration: none;
     color: var(--text-color);
     letter-spacing: 2px;
+    font-size: 0.75rem;
 }
 
 .menu_sign-up-btn {
@@ -37,4 +38,21 @@
 .menu_sign-up-btn:hover {
     background-color: var(--btn-link-bg-color);
     color: var(--btn-link-color);
+}
+
+@media screen and (max-width: 480px) {
+    .menu {
+        padding: 32px 24px;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .menu_logo {
+        max-width: 100px;
+        background: var(--nav-bg-color);
+    }
+
+    .menu_sign-up-btn {
+        margin: 0;
+    }
 }
